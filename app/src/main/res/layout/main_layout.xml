@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:weightSum="2"
+    android:background="#ffffff"
+    >
+
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/sneakpeek"
+        android:scaleType="center"
+        android:layout_weight="1"
+        android:id="@+id/home1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go near a proxinode beacon"
+        android:id="@+id/up"
+        android:layout_gravity="center"
+        android:textSize="14dp"
+        android:alpha="0.3"
+
+        />
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:background="#000000"
+        android:alpha="0.2"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="or click to explore"
+        android:id="@+id/down"
+        android:layout_gravity="center"
+        android:alpha="0.3"
+        android:textSize="14dp"/>
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:src="@drawable/getintouch"
+        android:scaleType="center"
+        android:layout_weight="1"
+        android:id="@+id/home2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FAQs"
+        android:id="@+id/faq"
+        android:layout_gravity="center"
+        android:layout_marginBottom="15dp"
+        android:textSize="18dp"
+        />
+</LinearLayout>
